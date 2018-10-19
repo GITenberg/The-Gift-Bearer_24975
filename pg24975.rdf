@@ -1,178 +1,198 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xml:base="http://www.gutenberg.org/"
   xmlns:cc="http://web.resource.org/cc/"
-  xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:dcam="http://purl.org/dc/dcam/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
   xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:dcam="http://purl.org/dc/dcam/"
 >
   <pgterms:ebook rdf:about="ebooks/24975">
-    <dcterms:language>
-      <rdf:Description rdf:nodeID="N6744022c3fea4a649fa9477c848a76ef">
-        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
-      </rdf:Description>
-    </dcterms:language>
-    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
-    <dcterms:rights>Public domain in the USA.</dcterms:rights>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="N01d84d1e81d34e3cba9d38a6f82891ea">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-        <rdf:value>Human-alien encounters -- Fiction</rdf:value>
-      </rdf:Description>
-    </dcterms:subject>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="N972bdeb1de064123a0807bdf08e3a04d">
-        <rdf:value>Extraterrestrial beings -- Fiction</rdf:value>
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-      </rdf:Description>
-    </dcterms:subject>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="N13a222a152a941a7a853e3d913f0c6cc">
-        <rdf:value>Science fiction, American</rdf:value>
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-      </rdf:Description>
-    </dcterms:subject>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/24975/24975.txt">
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/24975/24975-h.zip">
         <dcterms:isFormatOf rdf:resource="ebooks/24975"/>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nfb43f5b4af3f497a8eec3446c30a43f0">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-04-02T08:07:04</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">31138</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/24975.epub.noimages">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-16T22:01:58.164158</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nd081c1e9882e4e3a9bd209a935ac34e0">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30830</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/24975"/>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:type>
-      <rdf:Description rdf:nodeID="N9f55e362f9634a61a6aabb97abba3e79">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
-        <rdf:value>Text</rdf:value>
-      </rdf:Description>
-    </dcterms:type>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/24975/24975.zip">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-04-02T08:07:04</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Ndc47d3b543d244d48672b2a338b190fd">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/24975"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N139dfa8f829c4b11b4c11a392b399263">
+          <rdf:Description rdf:nodeID="Nfa3f2932924446598d1209e47fa29476">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12051</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:title>The Gift Bearer</dcterms:title>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/24975.plucker">
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N07c5936318a141bd88cdb26110d0e524">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/prs.plucker</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/24975"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17403</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-19T07:47:51.333646</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">67</pgterms:downloads>
-    <dcterms:creator>
-      <pgterms:agent rdf:about="2009/agents/9500">
-        <pgterms:alias>Fontenay, Charles Louis</pgterms:alias>
-        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1917</pgterms:birthdate>
-        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Charles_L._Fontenay"/>
-        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2007</pgterms:deathdate>
-        <pgterms:name>Fontenay, Charles L.</pgterms:name>
-      </pgterms:agent>
-    </dcterms:creator>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/24975.txt.utf-8">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-16T22:01:57.727592</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/24975"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">31106</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Na12f3f3d79ab4156b6e8436b11260399">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/24975.qioo">
-        <dcterms:isFormatOf rdf:resource="ebooks/24975"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">73994</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N10acc33773bd404faeaf56f6d4dfd194">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-qioo-ebook</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-19T07:47:50.797177</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="N0690a3a734984bccbd879b068491b550">
-        <rdf:value>PS</rdf:value>
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
-      </rdf:Description>
-    </dcterms:subject>
-    <dcterms:license rdf:resource="license"/>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/24975/24975-h/24975-h.htm">
-        <dcterms:isFormatOf rdf:resource="ebooks/24975"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Ned7080fe10da4f8395a29e94f928e1b2">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          <rdf:Description rdf:nodeID="N849f401462fa45669834ad440d95db1c">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=iso-8859-1</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-04-02T08:07:04</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">33165</dcterms:extent>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12940</dcterms:extent>
       </pgterms:file>
     </dcterms:hasFormat>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
+    <dcterms:creator>
+      <pgterms:agent rdf:about="2009/agents/9500">
+        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Charles_L._Fontenay"/>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2007</pgterms:deathdate>
+        <pgterms:alias>Fontenay, Charles Louis</pgterms:alias>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1917</pgterms:birthdate>
+        <pgterms:name>Fontenay, Charles L.</pgterms:name>
+      </pgterms:agent>
+    </dcterms:creator>
+    <dcterms:language>
+      <rdf:Description rdf:nodeID="Nf567424681dc4167a631991c05ad2865">
+        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
+      </rdf:Description>
+    </dcterms:language>
     <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-04-02</dcterms:issued>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/24975.epub.images">
+        <dcterms:isFormatOf rdf:resource="ebooks/24975"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15343</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-12T03:37:15.497102</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N5d9411dfc4254b5b892b689fff5bc11f">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:title>The Gift Bearer</dcterms:title>
+    <dcterms:license rdf:resource="license"/>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/24975/24975.txt">
+        <dcterms:isFormatOf rdf:resource="ebooks/24975"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">31138</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-04-02T08:07:04</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ncf06214c79c4400ba51a5c67409c7bca">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:type>
+      <rdf:Description rdf:nodeID="N42d732c43647419d8ab82d28f4812d5d">
+        <rdf:value>Text</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
+      </rdf:Description>
+    </dcterms:type>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</pgterms:downloads>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="N9aaa7554f2c044cf8b7deba4a5029466">
+      <rdf:Description rdf:nodeID="N1b4d0642ff974c3aa482b8dbbed959b4">
+        <rdf:value>Extraterrestrial beings -- Fiction</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/24975.rdf">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N1f7489884f3b4c1f873a526070b73f5e">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/24975"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12338</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-13T05:19:19.432101</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/24975.kindle.images">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80455</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/24975"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-12T03:37:15.737112</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Naff343bd5eb646688385a5fc90cfffa0">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="Na13dcc40fae145a9b328210c95319470">
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
         <rdf:value>Short stories</rdf:value>
       </rdf:Description>
     </dcterms:subject>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/24975/24975-h.zip">
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/24975.epub.noimages">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-12T03:37:15.581104</dcterms:modified>
         <dcterms:isFormatOf rdf:resource="ebooks/24975"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-04-02T08:07:04</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12940</dcterms:extent>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15343</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N38f0384fe8e142e2a14a2f5c8f044a3e">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          <rdf:Description rdf:nodeID="N1dbbb2a0e66240ed95d0cb47afa03d9d">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <pgterms:bookshelf>
+      <rdf:Description rdf:nodeID="N7ac1008c8f674c50967b7ce2e95a2aba">
+        <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
+        <rdf:value>Science Fiction</rdf:value>
+      </rdf:Description>
+    </pgterms:bookshelf>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/24975/24975.zip">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12051</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/24975"/>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nb7f7f4b5d18749fb8207f9921675932e">
+          <rdf:Description rdf:nodeID="Nb9aa6ff5a6d04a7da99962e1338f4a3f">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-04-02T08:07:04</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nc8a505052f5a4d72be4c1df9af634a72">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N128bd74bdef5429a9cd645975d9d8556">
+        <rdf:value>Human-alien encounters -- Fiction</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N3afc18abba9a4a3f80591c619b41932b">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Science fiction, American</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N5c08254d5fb442849a55d0bf8a12de2a">
+        <rdf:value>PS</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/24975.txt.utf-8">
+        <dcterms:isFormatOf rdf:resource="ebooks/24975"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-12T03:37:15.380136</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">31110</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N0db7287493404a56af701c5654ed0faf">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/24975/24975-h/24975-h.htm">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">33165</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/24975"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-04-02T08:07:04</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N6880e8378e0944caad217a074f26c964">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=iso-8859-1</rdf:value>
           </rdf:Description>
@@ -181,20 +201,22 @@
     </dcterms:hasFormat>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/24975.kindle.noimages">
-        <dcterms:isFormatOf rdf:resource="ebooks/24975"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47852</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-16T22:01:58.696630</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nb2f272bc1b8c429ca3a56628059db886">
+          <rdf:Description rdf:nodeID="N29a7428e941c431b9207b8c17cbcd8ec">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
           </rdf:Description>
         </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/24975"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80443</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-12T03:37:15.899091</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
   </pgterms:ebook>
   <cc:Work rdf:about="">
-    <cc:license rdf:resource="http://www.gnu.org/licenses/gpl.html"/>
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
   </cc:Work>
   <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Charles_L._Fontenay">
     <dcterms:description>en.wikipedia</dcterms:description>
